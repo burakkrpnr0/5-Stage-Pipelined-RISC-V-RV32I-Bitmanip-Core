@@ -17,7 +17,7 @@ Bu proje, RV32I komut setini ve özel bit manipülasyon komutlarını (CLZ, CTZ,
 
 ## Mimari Blok Şeması
 
-![RISC-V Architecture](images/architecture.png)
+![RISC-V Architecture](architecture.png)
 
 ## Dizin Yapısı
 
@@ -121,7 +121,7 @@ This project is a multi-cycle RISC-V processor core with a 5-stage pipeline, sup
 
 ### Architectural Block Diagram
 
-![RISC-V Architecture](images/architecture.png)
+![RISC-V Architecture](architecture.png)
 
 ### Directory Structure
 
