@@ -102,6 +102,7 @@ make cov
 ```
 
 Bu komut sonucunda `logs/html/index.html` adında bir rapor dosyası üretilir. Bu dosyayı tarayıcınızda açarak simülasyonun kod üzerindeki etkisini inceleyebilirsiniz.
+> 📄 Detaylı mikro mimari analizleri, dalga şekilleri (waveform) ve doğrulama raporu için [Tasarım Raporu](Design_Report_TR_Burak_Karapinar.pdf) belgesini inceleyebilirsiniz.
 
 [EN]
 This project is a multi-cycle RISC-V processor core with a 5-stage pipeline, supporting the RV32I instruction set and custom bit manipulation instructions (CLZ, CTZ, CPOP). It is designed in SystemVerilog and verified with Verilator.
@@ -205,3 +206,4 @@ make cov
 ```
 
 This command produces a report file named `logs/html/index.html`. You can open this file in your browser to examine the simulation's impact on the code.
+> 📄 For detailed microarchitectural analysis, waveforms, and test results, please refer to the [Design Report (EN)](Design_Report_EN_Burak_Karapinar.pdf).
