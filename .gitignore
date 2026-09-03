@@ -1,0 +1,29 @@
+# Verilator derleme ve binary çıktıları
+obj_dir/
+*.d
+*.o
+
+# Simülasyon logları ve izleme dosyaları (Waveform)
+dump.vcd
+model.log
+model_run.log
+*.vcd
+
+# Kapsam (Coverage) raporları ve veri tabanları
+coverage.dat
+logs/
+
+# Bellek geçici kopyaları (Makefile test kopyalamaları)
+imem.mem
+dmem.mem
+
+# Python önbellek dosyaları
+__pycache__/
+*.pyc
+
+# İşletim sistemi ve editör geçici dosyaları
+.DS_Store
+Thumbs.db
+.vscode/
+*.swp
+*~
